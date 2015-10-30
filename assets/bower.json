@@ -1,0 +1,29 @@
+{
+  "name": "PivotalTimer",
+  "authors": [
+    "Gerard Solé <g.sole.ca@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-local-storage": "~0.2.3"
+  }
+}

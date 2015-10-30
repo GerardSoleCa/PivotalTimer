@@ -1,0 +1,14 @@
+<form class="form-signin">
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <label for="inputEmail" class="sr-only">API Token</label>
+    <input type="password" id="inputEmail" class="form-control" placeholder="API Token" required="" ng-model="token"
+           autofocus="">
+
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" value="remember-me" ng-model="rememberMe"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="signIn()">Sign in</button>
+    {{error}}
+</form>

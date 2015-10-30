@@ -1,0 +1,10 @@
+<h1>Tasks</h1>
+<ul class="nav nav-pills nav-stacked" ng-if="tasks.length>0">
+    <li role="presentation" ng-repeat="task in tasks" ng-class="{active: active==task.id}">
+        <a href="#/" ui-sref="projects.tasks.detail({taskId:task.id})"
+           ng-click="setActive(task.id)">{{task.name}}</a>
+    </li>
+</ul>
+<ul>
+    <li ng-if="projects.length==0"> We are fucked up</li>
+</ul>

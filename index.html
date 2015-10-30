@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PivotalTimer</title>
+
+    <link href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/signin.css" rel="stylesheet">
+</head>
+<body ng-app="pivotalTimer">
+<!--CONTAINER-->
+<div class="container">
+    <div ui-view></div>
+</div>
+</body>
+<script src="assets/bower_components/angular/angular.min.js"></script>
+<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="assets/bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="assets/bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script src="assets/js/services/pivotalService.js"></script>
+<script src="assets/js/services/timingService.js"></script>
+<script src="assets/js/pivotaltracker.js"></script>
+<script src="assets/js/configs/configs.js"></script>
+<script src="assets/js/controllers/signin/signinCtrl.js"></script>
+<script src="assets/js/controllers/home/projectsCtrl.js"></script>
+</html>

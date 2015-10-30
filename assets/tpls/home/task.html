@@ -1,0 +1,7 @@
+<h1>Detail</h1>
+<p class="text-capitalize"><strong>{{task.name}}</strong></p>
+<p class="text-capitalize text-justify">{{task.description}}</p>
+<p><a href="{{task.url}}" target="_blank">{{task.url}}</a></p>
+
+<button ng-if="!task.isRunning" class="btn btn-warning" ng-click="start(task)">Start time</button>
+<button ng-if="task.isRunning" class="btn btn-primary" ng-click="stop(task)">Stop time</button>
